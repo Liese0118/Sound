@@ -15,6 +15,16 @@
 		6BDC7009237ACE1300DEDD37 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6BDC7007237ACE1300DEDD37 /* LaunchScreen.storyboard */; };
 		6BDC7014237ACE1300DEDD37 /* SoundTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BDC7013237ACE1300DEDD37 /* SoundTests.swift */; };
 		6BDC701F237ACE1300DEDD37 /* SoundUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BDC701E237ACE1300DEDD37 /* SoundUITests.swift */; };
+		6BDC7046237ACE4800DEDD37 /* taiko.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 6BDC703E237ACE4800DEDD37 /* taiko.mp3 */; };
+		6BDC7047237ACE4800DEDD37 /* guitar.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 6BDC703F237ACE4800DEDD37 /* guitar.mp3 */; };
+		6BDC7048237ACE4800DEDD37 /* triangle.png in Resources */ = {isa = PBXBuildFile; fileRef = 6BDC7040237ACE4800DEDD37 /* triangle.png */; };
+		6BDC7049237ACE4800DEDD37 /* triangle.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 6BDC7041237ACE4800DEDD37 /* triangle.mp3 */; };
+		6BDC704A237ACE4800DEDD37 /* symbal.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 6BDC7042237ACE4800DEDD37 /* symbal.mp3 */; };
+		6BDC704B237ACE4800DEDD37 /* guitar.png in Resources */ = {isa = PBXBuildFile; fileRef = 6BDC7043237ACE4800DEDD37 /* guitar.png */; };
+		6BDC704C237ACE4800DEDD37 /* taiko.png in Resources */ = {isa = PBXBuildFile; fileRef = 6BDC7044237ACE4800DEDD37 /* taiko.png */; };
+		6BDC704D237ACE4800DEDD37 /* cymbal.png in Resources */ = {isa = PBXBuildFile; fileRef = 6BDC7045237ACE4800DEDD37 /* cymbal.png */; };
+		6BDC70512386720000DEDD37 /* musician_cat.png in Resources */ = {isa = PBXBuildFile; fileRef = 6BDC704F2386720000DEDD37 /* musician_cat.png */; };
+		6BDC70522386720000DEDD37 /* haikei.png in Resources */ = {isa = PBXBuildFile; fileRef = 6BDC70502386720000DEDD37 /* haikei.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +59,16 @@
 		6BDC701A237ACE1300DEDD37 /* SoundUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SoundUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		6BDC701E237ACE1300DEDD37 /* SoundUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SoundUITests.swift; sourceTree = "<group>"; };
 		6BDC7020237ACE1300DEDD37 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6BDC703E237ACE4800DEDD37 /* taiko.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = taiko.mp3; sourceTree = "<group>"; };
+		6BDC703F237ACE4800DEDD37 /* guitar.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = guitar.mp3; sourceTree = "<group>"; };
+		6BDC7040237ACE4800DEDD37 /* triangle.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = triangle.png; sourceTree = "<group>"; };
+		6BDC7041237ACE4800DEDD37 /* triangle.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = triangle.mp3; sourceTree = "<group>"; };
+		6BDC7042237ACE4800DEDD37 /* symbal.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = symbal.mp3; sourceTree = "<group>"; };
+		6BDC7043237ACE4800DEDD37 /* guitar.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = guitar.png; sourceTree = "<group>"; };
+		6BDC7044237ACE4800DEDD37 /* taiko.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = taiko.png; sourceTree = "<group>"; };
+		6BDC7045237ACE4800DEDD37 /* cymbal.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = cymbal.png; sourceTree = "<group>"; };
+		6BDC704F2386720000DEDD37 /* musician_cat.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = musician_cat.png; sourceTree = "<group>"; };
+		6BDC70502386720000DEDD37 /* haikei.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = haikei.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +119,8 @@
 		6BDC6FFB237ACE1200DEDD37 /* Sound */ = {
 			isa = PBXGroup;
 			children = (
+				6BDC704E2386720000DEDD37 /* advance_sound */,
+				6BDC703D237ACE4800DEDD37 /* sound */,
 				6BDC6FFC237ACE1200DEDD37 /* AppDelegate.swift */,
 				6BDC6FFE237ACE1200DEDD37 /* SceneDelegate.swift */,
 				6BDC7000237ACE1200DEDD37 /* ViewController.swift */,
@@ -126,6 +148,31 @@
 				6BDC7020237ACE1300DEDD37 /* Info.plist */,
 			);
 			path = SoundUITests;
+			sourceTree = "<group>";
+		};
+		6BDC703D237ACE4800DEDD37 /* sound */ = {
+			isa = PBXGroup;
+			children = (
+				6BDC703E237ACE4800DEDD37 /* taiko.mp3 */,
+				6BDC703F237ACE4800DEDD37 /* guitar.mp3 */,
+				6BDC7040237ACE4800DEDD37 /* triangle.png */,
+				6BDC7041237ACE4800DEDD37 /* triangle.mp3 */,
+				6BDC7042237ACE4800DEDD37 /* symbal.mp3 */,
+				6BDC7043237ACE4800DEDD37 /* guitar.png */,
+				6BDC7044237ACE4800DEDD37 /* taiko.png */,
+				6BDC7045237ACE4800DEDD37 /* cymbal.png */,
+			);
+			name = sound;
+			path = "../../../Desktop/LiT_素材/materials/sound";
+			sourceTree = "<group>";
+		};
+		6BDC704E2386720000DEDD37 /* advance_sound */ = {
+			isa = PBXGroup;
+			children = (
+				6BDC704F2386720000DEDD37 /* musician_cat.png */,
+				6BDC70502386720000DEDD37 /* haikei.png */,
+			);
+			path = advance_sound;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -232,9 +279,19 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6BDC704A237ACE4800DEDD37 /* symbal.mp3 in Resources */,
+				6BDC7047237ACE4800DEDD37 /* guitar.mp3 in Resources */,
+				6BDC7048237ACE4800DEDD37 /* triangle.png in Resources */,
+				6BDC7049237ACE4800DEDD37 /* triangle.mp3 in Resources */,
+				6BDC704C237ACE4800DEDD37 /* taiko.png in Resources */,
+				6BDC70522386720000DEDD37 /* haikei.png in Resources */,
 				6BDC7009237ACE1300DEDD37 /* LaunchScreen.storyboard in Resources */,
+				6BDC704B237ACE4800DEDD37 /* guitar.png in Resources */,
+				6BDC70512386720000DEDD37 /* musician_cat.png in Resources */,
 				6BDC7006237ACE1300DEDD37 /* Assets.xcassets in Resources */,
 				6BDC7004237ACE1200DEDD37 /* Main.storyboard in Resources */,
+				6BDC7046237ACE4800DEDD37 /* taiko.mp3 in Resources */,
+				6BDC704D237ACE4800DEDD37 /* cymbal.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
